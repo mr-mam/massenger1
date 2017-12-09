@@ -1,8 +1,8 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-    bot_token = "Token" --Put You Token Here
+    bot_token = "377847800:AAGcD2WLvrrn8CG4k0xv8l_Mxbd-Ax3POpg" --Put You Token Here
    send_api = "https://api.telegram.org/bot"..bot_token
-sudo_id = 157059515
+sudo_id = 142217892
 require('./bot/methods')
 http = require('socket.http')
 https = require('ssl.https')
